@@ -51,7 +51,7 @@ echo "type is $type";
 
 echo "\nTASK 3.2\n";
 
-switch ($variable) {
+switch (true) {
     case is_bool($variable):
         $type = "boolean";
         break;
